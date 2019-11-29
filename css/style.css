@@ -10,10 +10,27 @@
   vertical-align: middle;
   /* line-height: 100px;
   height: 20%; */
-  background-color: pink;
-  border: 1px solid black;
+  /* background-color: pink;
+  border: 1px solid black; */
 }
 
+/* container general */
+[class*="container"]{
+  margin: 0 auto;
+}
+
+/* immagini */
 .width_50{
-  width: 50%;
+  max-width: 50%;
+  max-height: 200px;
+}
+
+.maps{
+  max-width: 50%;
+  max-height: 178px;
+}
+
+/* lessons */
+.container.col-lg-12{
+  margin-bottom: 50px;
 }
